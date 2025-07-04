@@ -1,0 +1,1 @@
+C:\Users\ramar\Desktop\fleetlink\fleetlink-transport\target\release\libfleetlink_transport.rlib: C:\Users\ramar\Desktop\fleetlink\fleetlink-transport\src\lib.rs C:\Users\ramar\Desktop\fleetlink\fleetlink-transport\src\transport.rs

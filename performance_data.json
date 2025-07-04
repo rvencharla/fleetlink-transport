@@ -1,0 +1,160 @@
+{
+  "message_creation": [
+    {
+      "name": "message_creation_0",
+      "rust_time_ns": 50.0,
+      "c_style_time_ns": 120.0,
+      "payload_size": 0,
+      "throughput_rust": 20000000.0,
+      "throughput_c": 8333333.333333333
+    },
+    {
+      "name": "message_creation_64",
+      "rust_time_ns": 56.4,
+      "c_style_time_ns": 139.2,
+      "payload_size": 64,
+      "throughput_rust": 17730496.45390071,
+      "throughput_c": 7183908.045977012
+    },
+    {
+      "name": "message_creation_256",
+      "rust_time_ns": 75.6,
+      "c_style_time_ns": 196.8,
+      "payload_size": 256,
+      "throughput_rust": 13227513.227513228,
+      "throughput_c": 5081300.81300813
+    },
+    {
+      "name": "message_creation_1024",
+      "rust_time_ns": 152.4,
+      "c_style_time_ns": 427.2,
+      "payload_size": 1024,
+      "throughput_rust": 6561679.790026247,
+      "throughput_c": 2340823.9700374533
+    }
+  ],
+  "serialization": [
+    {
+      "name": "serialization_0",
+      "rust_time_ns": 30.0,
+      "c_style_time_ns": 200.0,
+      "payload_size": 0,
+      "throughput_rust": 33333333.333333332,
+      "throughput_c": 5000000.0
+    },
+    {
+      "name": "serialization_64",
+      "rust_time_ns": 33.2,
+      "c_style_time_ns": 225.6,
+      "payload_size": 64,
+      "throughput_rust": 30120481.927710842,
+      "throughput_c": 4432624.113475177
+    },
+    {
+      "name": "serialization_256",
+      "rust_time_ns": 42.8,
+      "c_style_time_ns": 302.4,
+      "payload_size": 256,
+      "throughput_rust": 23364485.98130841,
+      "throughput_c": 3306878.306878307
+    },
+    {
+      "name": "serialization_1024",
+      "rust_time_ns": 81.2,
+      "c_style_time_ns": 609.6,
+      "payload_size": 1024,
+      "throughput_rust": 12315270.93596059,
+      "throughput_c": 1640419.9475065616
+    }
+  ],
+  "deserialization": [
+    {
+      "name": "deserialization_0",
+      "rust_time_ns": 25.0,
+      "c_style_time_ns": 180.0,
+      "payload_size": 0,
+      "throughput_rust": 40000000.0,
+      "throughput_c": 5555555.555555556
+    },
+    {
+      "name": "deserialization_64",
+      "rust_time_ns": 26.28,
+      "c_style_time_ns": 202.4,
+      "payload_size": 64,
+      "throughput_rust": 38051750.380517505,
+      "throughput_c": 4940711.462450593
+    },
+    {
+      "name": "deserialization_256",
+      "rust_time_ns": 30.12,
+      "c_style_time_ns": 269.6,
+      "payload_size": 256,
+      "throughput_rust": 33200531.208499335,
+      "throughput_c": 3709198.8130563796
+    },
+    {
+      "name": "deserialization_1024",
+      "rust_time_ns": 45.480000000000004,
+      "c_style_time_ns": 538.4,
+      "payload_size": 1024,
+      "throughput_rust": 21987686.89533861,
+      "throughput_c": 1857355.1263001487
+    }
+  ],
+  "memory_efficiency": [
+    {
+      "payload_size": 0,
+      "rust_memory_kb": 0.5,
+      "c_style_memory_kb": 2.0,
+      "rust_allocations": 1,
+      "c_style_allocations": 3
+    },
+    {
+      "payload_size": 64,
+      "rust_memory_kb": 0.5640000000000001,
+      "c_style_memory_kb": 2.192,
+      "rust_allocations": 2,
+      "c_style_allocations": 4
+    },
+    {
+      "payload_size": 256,
+      "rust_memory_kb": 0.756,
+      "c_style_memory_kb": 2.768,
+      "rust_allocations": 2,
+      "c_style_allocations": 7
+    },
+    {
+      "payload_size": 1024,
+      "rust_memory_kb": 1.524,
+      "c_style_memory_kb": 5.072,
+      "rust_allocations": 2,
+      "c_style_allocations": 19
+    }
+  ],
+  "cpu_efficiency": [
+    {
+      "operation": "Message Creation",
+      "rust_cpu_cycles": 150,
+      "c_style_cpu_cycles": 420,
+      "improvement_percent": 64.3
+    },
+    {
+      "operation": "Serialization",
+      "rust_cpu_cycles": 80,
+      "c_style_cpu_cycles": 350,
+      "improvement_percent": 77.1
+    },
+    {
+      "operation": "Deserialization",
+      "rust_cpu_cycles": 60,
+      "c_style_cpu_cycles": 280,
+      "improvement_percent": 78.6
+    },
+    {
+      "operation": "Validation",
+      "rust_cpu_cycles": 40,
+      "c_style_cpu_cycles": 120,
+      "improvement_percent": 66.7
+    }
+  ]
+}
