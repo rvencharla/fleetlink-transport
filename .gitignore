@@ -1,0 +1,39 @@
+# Rust build artifacts
+/target/
+Cargo.lock
+
+# Generated performance files
+performance_comparison.png
+performance_data.json
+
+# Generated documentation
+PERFORMANCE_ANALYSIS.md
+PROJECT_COMPLETE.md
+TEST_RESULTS.md
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Benchmark reports
+/target/criterion/
+
+# Rust analyzer cache
+/target/rust-analyzer/
