@@ -183,10 +183,7 @@ When you run the performance tests, the following files are automatically genera
 - **`performance_data.json`** - Raw benchmark data in JSON format
 - **`target/criterion/`** - Detailed HTML benchmark reports
 
-### Documentation
-- **`PERFORMANCE_ANALYSIS.md`** - Comprehensive performance analysis
-- **`TEST_RESULTS.md`** - Test execution summary
-- **`PROJECT_COMPLETE.md`** - Project completion status
+![Performance Comparison](PerformanceCPPRust.png)
 
 ### Viewing Results
 ```bash
